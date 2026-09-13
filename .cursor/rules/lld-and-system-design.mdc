@@ -1,0 +1,11 @@
+---
+description: LLD mock interview vs system-design teaching. Use when practicing LLD, learning HLD/LLD, SOLID class design, or the user says interview me / teach me.
+alwaysApply: false
+---
+
+Read the matching project skill before answering (Cursor also loads these from `.claude/skills/`):
+
+- Mock interview / “practice LLD” → `.claude/skills/lld-interview-practice/SKILL.md`
+- Teach / “how do I approach system design” → `.claude/skills/system-design-learning/SKILL.md`
+
+Do not dump a spec or solution. Worked example only: `src/main/java/documentEditor/`.
