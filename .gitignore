@@ -40,6 +40,3 @@ bin/
 
 ### Mac OS ###
 .DS_Store
-
-### Document Editor runtime saves ###
-/file-*.txt

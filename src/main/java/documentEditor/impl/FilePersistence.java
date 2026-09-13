@@ -12,7 +12,7 @@ public class FilePersistence implements Persistence {
     @Override
     public void save(String s) {
         String filename = "file-" + counter++ + ".txt";
-        File file = new File("./" + filename);
+        File file = new File("./saves/" + filename);
         try(FileOutputStream fileOutputStream = new FileOutputStream(file);) {
             fileOutputStream.write(s.getBytes());
         } catch (Exception e) {
